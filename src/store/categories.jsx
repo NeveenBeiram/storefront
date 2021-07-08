@@ -20,11 +20,7 @@ let initialState = {
       case 'RESET':
         return initialState;
   
-      //   case "all categories":
-      // activeCategory = "all categories";
-      // categories = initialState.categories;
-      // return { activeCategory, categories };
-
+      
       default:
         return state;
     }
