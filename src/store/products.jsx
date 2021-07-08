@@ -19,9 +19,7 @@ let initialState = {
 
         switch (type) {
          
-          // case 'all categories':
-          //   return { products: initialState.products };
-
+         
           case 'filter':
               if (payload === 'all categories'){
                 return state
@@ -48,12 +46,7 @@ export const filterProducts = (category) => {
     }
   };
 
-//   export const allCategories = () => {
-//     return {
-//         type: 'all categories',
-//         payload:initialState.products
-//     }
-// }
+
   
   export const resetCategories = () => {
     return {
